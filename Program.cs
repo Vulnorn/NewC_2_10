@@ -14,7 +14,7 @@
 
             int randomNumber = random.Next(minNumberRandom, maxNumberRandom);
 
-            for (int i = 0;numberInDegree<randomNumber;i++)
+            for (int i = 0;numberInDegree<=randomNumber;i++)
             {
                 numberInDegree = numberInDegree * specifiedNumber;
                 degreeNumber++;
